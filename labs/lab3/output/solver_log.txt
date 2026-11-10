@@ -1,0 +1,44 @@
+=== solver log: base (MILP) ===
+solver: HiGHS via scipy.optimize.milp [MILP (HiGHS branch-and-bound)]
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+elapsed: 0.0070 s
+objective (solver): 13.0
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: base (LP-relaxation) ===
+solver: HiGHS via scipy.optimize.milp [LP-relaxation]
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+elapsed: 0.0006 s
+objective (solver): 12.055555555555555
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: deficit ===
+solver: HiGHS via scipy.optimize.milp [MILP (HiGHS branch-and-bound)]
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+elapsed: 0.0043 s
+objective (solver): 13.0
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: stress ===
+solver: HiGHS via scipy.optimize.milp [MILP (HiGHS branch-and-bound)]
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+elapsed: 0.0038 s
+objective (solver): 17.0
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: big-M = 1e6 (MILP) ===
+solver: HiGHS via scipy.optimize.milp [MILP (HiGHS branch-and-bound)]
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+elapsed: 0.0047 s
+objective (solver): 12.0
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)

@@ -1,0 +1,4 @@
+scenario,status,objective,nit,verify_ok,elapsed_s
+base,optimal,28464.55,9,True,0.005
+deficit,optimal,28479.8,9,True,0.001
+stress,optimal,31125.769999999997,9,True,0.001

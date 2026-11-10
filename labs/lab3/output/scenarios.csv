@@ -1,0 +1,5 @@
+scenario,status,objective,n_chosen,verify_ok,elapsed_s
+base,optimal,13.0,13,True,0.007
+deficit,optimal,13.0,13,True,0.0043
+stress,optimal,17.0,17,True,0.0038
+base_lp_relaxation,optimal,12.055555555555555,12,,0.0006

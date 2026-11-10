@@ -1,0 +1,29 @@
+=== solver log: base ===
+solver: HiGHS via scipy.optimize.linprog (method='highs')
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+iterations (simplex): 9
+elapsed: 0.0050 s
+objective (solver): 28464.55
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: deficit ===
+solver: HiGHS via scipy.optimize.linprog (method='highs')
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+iterations (simplex): 9
+elapsed: 0.0010 s
+objective (solver): 28479.8
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
+
+=== solver log: stress ===
+solver: HiGHS via scipy.optimize.linprog (method='highs')
+status: 0 (Optimization terminated successfully. (HiGHS Status 7: Optimal))
+iterations (simplex): 9
+elapsed: 0.0010 s
+objective (solver): 31125.769999999997
+
+--- HiGHS console output ---
+(HiGHS не печатает протокол итераций через scipy-интерфейс)
